@@ -10,3 +10,7 @@ puts "Hello K-Peggy"
 #Practice "print"
 print "This line will not change "
 puts "Right?"
+
+#What will print by using "p"?
+x = "What will print?"
+p x
