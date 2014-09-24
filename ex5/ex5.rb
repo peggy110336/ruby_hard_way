@@ -13,5 +13,6 @@ puts "Actually that's not heavy."
 puts "He got %s eyes and %s hair." % [my_eyes,my_hair]
 puts "His teeth are usually %s depending on the coffee." % my_teeth
 
+
 #This line is ticky, try to get it exactly right
 puts "If I add %d, %d, and %d I get %d." % [my_age, my_height, my_weight, my_age+my_height+my_weight]
