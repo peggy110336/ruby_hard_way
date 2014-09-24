@@ -11,7 +11,7 @@ puts "Roosters #{100.0 - 25.0 * 3.0 % 4.0}"
 #輸出"Now I will count the eggs:"
 puts "Now I will count the eggs:"
 #print the answer of this math question.
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts 3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0
 
 #puts this sentence.
 puts "Is it true that 3 + 2 < 5 - 7?"
