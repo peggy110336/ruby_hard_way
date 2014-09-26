@@ -21,6 +21,7 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
+
 #what that print vs. puts on this line what's it do?
 #combined end1~end6 String,print it then it will not change line
 print end1 + end2 + end3 + end4 + end5 + end6
