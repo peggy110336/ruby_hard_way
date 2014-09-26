@@ -1,12 +1,12 @@
-formatter = "%s %s %s %s"
+formatter = "%{first} %{second} %{third} %{fourth}"
 
-puts formatter % [1,2,3,4]
-puts formatter % ["one", "two", "three", "four"]
-puts formatter % [true, false, false, true]
-puts formatter % [formatter, formatter, formatter, formatter]
+puts formatter % [first: 1, second: 2, third: 3, fourth: 4]
+puts formatter % [first: "one", second: "two", third: "three", fourth: "four"]
+puts formatter % [first: true, second: false, third: false, fourth: true]
+puts formatter % [first: formatter, second: formatter, third: formatter, fourth: formatter]
 puts formatter % [ 
-	 "I had this thing.",
-	 "That you could type up right.",
-	 "But it didn't sing.",
-	 "So I said goodniight."
+	 first: "I had this thing.",
+	 second: "That you could type up right.",
+	 third: "But it didn't sing.",
+	 fourth: "So I said goodniight."
 	]
