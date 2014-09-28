@@ -8,6 +8,7 @@ $stdin.gets
 
 puts "Opening the file..."
 target = open(filename,'w')
+puts "Trincatong the file..."
 target.truncate(0)
 
 puts "Now I'm going to ask you for three lines."
