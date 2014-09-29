@@ -1,6 +1,6 @@
 def add(a,b)
 	puts "Adding #{a} + #{b}"
-	a + b # It can also be worked without "return"
+	a + b  # It can also be worked without "return"
 end
 
 def substract(a,b)
